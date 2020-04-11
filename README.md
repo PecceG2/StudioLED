@@ -27,7 +27,18 @@
 </p>
 
 ## Screenshots ##
-![Screenshot](https://pecceg2.github.io/StudioLED/desktop_preview.png)
+![Screenshot](https://pecceg2.github.io/StudioLED/desktop_preview.jpg)
 
 ## License ##
 [License for this project](LICENSE.md)
+
+[contributors-shield]: https://img.shields.io/github/contributors/PecceG2/StudioLED.svg?style=flat-square
+[contributors-url]: https://github.com/PecceG2/StudioLED/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/PecceG2/StudioLED.svg?style=flat-square
+[forks-url]: https://github.com/PecceG2/StudioLED/network/members
+[stars-shield]: https://img.shields.io/github/stars/PecceG2/StudioLED.svg?style=flat-square
+[stars-url]: https://github.com/PecceG2/StudioLED/stargazers
+[issues-shield]: https://img.shields.io/github/issues/PecceG2/StudioLED.svg?style=flat-square
+[issues-url]: https://github.com/PecceG2/StudioLED/issues
+[license-shield]: https://img.shields.io/github/license/PecceG2/StudioLED.svg?style=flat-square
+[license-url]: https://github.com/PecceG2/StudioLED/blob/master/LICENSE.md
