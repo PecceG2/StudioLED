@@ -13,7 +13,7 @@
   <h3 align="center">StudioLED</h3>
 
   <p align="center">
-    StudioLED description here :)
+    StudioLED is a RGB LED strip controller via COM designed for recording lights
     <br />
     <a href="https://github.com/"><strong>xxx xxx xxx xxx »</strong></a>
     <br />
