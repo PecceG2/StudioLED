@@ -42,7 +42,7 @@ The [StudioLED](https://github.com/PecceG2/StudioLED) repository provides a **co
 - RGB led strip
 
 #### Electronic diagram
-![Screenshot](https://pecceg2.github.io/StudioLED/diagram.jpg)
+![electronic_diagram](https://pecceg2.github.io/StudioLED/diagram.jpg)
 
 #### Soldering
 
@@ -54,6 +54,18 @@ The [StudioLED](https://github.com/PecceG2/StudioLED) repository provides a **co
 5. Click on arrow (Upload)!
 
 #### Making led strip light
+The lamp is based on 5050 led strips connected in parallel, adhered on a wooden board.
+I really recommend add ligth diffusor.
+![led_strip](https://pecceg2.github.io/StudioLED/led_strip.jpg)
+
+With diffusor
+![led_strip_with_diffusor](https://pecceg2.github.io/StudioLED/led_strip_diffusor.jpg)
+
+## Running
+Connect 12v power supply and USB cable to your PC.
+Open StudioLED.exe located on "windows_software\Compiled\Portable".
+Refresh COM devices with "Actualizar Dispositivos" and select your light COM port.
+Change the colors! :)
 
 
 ## License
