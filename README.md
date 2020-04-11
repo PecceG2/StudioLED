@@ -33,6 +33,13 @@
 
 The [StudioLED](https://github.com/PecceG2/StudioLED) repository provides a **compiled exe** for Windows to quick-start your controller. You only need build the hardware:
 
+###### Materials
+- Any Arduino (Pro Micro used in this case)
+- x3 Mosfet [IRF540N](https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/IRF540N.pdf)
+- x3 10kΩ Resistor
+- x3 1.1kΩ Resistor
+- 12v 1A Power Supply
+- RGB led strip
 
 ## License
 >You can check out the full license [here](https://github.com/PecceG2/StudioLED/blob/master/LICENSE)
