@@ -29,8 +29,14 @@
 ## Screenshots ##
 ![Screenshot](https://pecceg2.github.io/StudioLED/desktop_preview.jpg)
 
-## License ##
-[License for this project](LICENSE.md)
+## 🔧&nbsp; Building
+
+The [StudioLED](https://github.com/PecceG2/StudioLED) repository provides a **compiled exe** for Windows to quick-start your controller.
+
+## License
+>You can check out the full license [here](https://github.com/PecceG2/StudioLED/blob/master/LICENSE)
+
+This project is licensed under the terms of the **MIT** license.
 
 [contributors-shield]: https://img.shields.io/github/contributors/PecceG2/StudioLED.svg?style=flat-square
 [contributors-url]: https://github.com/PecceG2/StudioLED/graphs/contributors
