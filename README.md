@@ -29,9 +29,10 @@
 ## Screenshots ##
 ![Screenshot](https://pecceg2.github.io/StudioLED/desktop_preview.jpg)
 
-## 🔧&nbsp; Building
+## Building
 
-The [StudioLED](https://github.com/PecceG2/StudioLED) repository provides a **compiled exe** for Windows to quick-start your controller.
+The [StudioLED](https://github.com/PecceG2/StudioLED) repository provides a **compiled exe** for Windows to quick-start your controller. You only need build the hardware:
+
 
 ## License
 >You can check out the full license [here](https://github.com/PecceG2/StudioLED/blob/master/LICENSE)
