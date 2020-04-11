@@ -33,13 +33,28 @@
 
 The [StudioLED](https://github.com/PecceG2/StudioLED) repository provides a **compiled exe** for Windows to quick-start your controller. You only need build the hardware:
 
-###### Materials
+#### Materials
 - Any Arduino (Pro Micro used in this case)
 - x3 Mosfet [IRF540N](https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/IRF540N.pdf)
 - x3 10kΩ Resistor
 - x3 1.1kΩ Resistor
 - 12v 1A Power Supply
 - RGB led strip
+
+#### Electronic diagram
+![Screenshot](https://pecceg2.github.io/StudioLED/diagram.jpg)
+
+#### Soldering
+
+#### Upload code to Arduino
+1. Connect your Arduino vía USB to your computer.
+2. Download this repository
+3. Open hardware_controller\hardware_controller.ino with Arduino IDE [(Download from here)](https://www.arduino.cc/en/main/software)
+4. Select Arduino on Tools menu (model & port)
+5. Click on arrow (Upload)!
+
+#### Making led strip light
+
 
 ## License
 >You can check out the full license [here](https://github.com/PecceG2/StudioLED/blob/master/LICENSE)
