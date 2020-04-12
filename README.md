@@ -45,6 +45,7 @@ The [StudioLED](https://github.com/PecceG2/StudioLED) repository provides a **co
 ![electronic_diagram](https://pecceg2.github.io/StudioLED/diagram.jpg)
 
 #### Soldering
+![board](https://pecceg2.github.io/StudioLED/board.jpg)
 
 #### Upload code to Arduino
 1. Connect your Arduino vía USB to your computer.
