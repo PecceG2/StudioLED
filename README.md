@@ -70,7 +70,7 @@ Change the colors! :)
 
 
 ## License
->You can check out the full license [here](https://github.com/PecceG2/StudioLED/blob/master/LICENSE)
+>You can check out the full license [here](https://github.com/PecceG2/StudioLED/blob/master/LICENSE.md)
 
 This project is licensed under the terms of the **MIT** license.
 
