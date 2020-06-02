@@ -45,7 +45,7 @@ Public Class StudioLED
             serialConnected()
         Else
             disconnectSerialPort()
-            b_updateCOM.Text = "Error al conectar"
+            b_updateCOM.Text = "Connection error"
 
         End If
     End Sub
@@ -55,7 +55,7 @@ Public Class StudioLED
             COM.Close()
         End If
         connectionStatus = False
-        b_updateCOM.Text = "Actualizar Dispositivos"
+        b_updateCOM.Text = "Update devices"
         ListBox1.Enabled = True
         b_updateCOM.Enabled = True
         colorGroupConfiguration.Enabled = False
@@ -67,7 +67,7 @@ Public Class StudioLED
         b_updateCOM.Enabled = True
         connectionStatus = True
         colorUpdaterToCOM.Enabled = True
-        b_updateCOM.Text = "Desconectar"
+        b_updateCOM.Text = "Disconnect"
     End Sub
     Sub sendColorDataCOM(r As Int16, g As Int16, b As Int16)
         'R = Red color 0-255
@@ -125,10 +125,13 @@ Public Class StudioLED
     End Sub
 
     Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
-        ListBox1.Enabled = False
-        b_updateCOM.Enabled = False
-        b_updateCOM.Text = "Conectando..."
-        connectSerialPort(ListBox1.SelectedItem.ToString)
+        If (Not ListBox1.SelectedItem = Nothing) Then
+            ListBox1.Enabled = False
+            b_updateCOM.Enabled = False
+            b_updateCOM.Text = "Connecting..."
+
+            connectSerialPort(ListBox1.SelectedItem.ToString)
+        End If
     End Sub
 
     Private Sub CEM_ColorChanged(sender As Object, e As EventArgs) Handles CEM.ColorChanged
@@ -139,11 +142,11 @@ Public Class StudioLED
         If (shuttingDownStatus = False) Then
             colorUpdaterToCOM.Enabled = False
             sendColorDataCOM(0, 0, 0)
-            shutdownButton.Text = "Encender"
+            shutdownButton.Text = "Power on"
             shuttingDownStatus = True
         Else
             colorUpdaterToCOM.Enabled = True
-            shutdownButton.Text = "Apagar"
+            shutdownButton.Text = "Power off"
             shuttingDownStatus = False
         End If
     End Sub

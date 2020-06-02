@@ -78,7 +78,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Cyotek.Windows.Forms.ColorPicker">
-      <HintPath>..\..\..\..\..\Librerías, utilidades, etc\DLL útiles\Color Picker for VB.NET\Cyotek.Windows.Forms.ColorPicker.dll</HintPath>
+      <HintPath>..\..\..\..\Librerías, utilidades, etc\04. Visual Studio\Color Picker Library for VB.NET\Cyotek.Windows.Forms.ColorPicker.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

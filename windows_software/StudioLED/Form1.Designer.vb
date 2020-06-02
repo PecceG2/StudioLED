@@ -52,7 +52,7 @@ Partial Class StudioLED
         Me.GroupBox1.Size = New System.Drawing.Size(188, 206)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = " Dispositivos conectados "
+        Me.GroupBox1.Text = " Devices list "
         '
         'b_updateCOM
         '
@@ -61,7 +61,7 @@ Partial Class StudioLED
         Me.b_updateCOM.Name = "b_updateCOM"
         Me.b_updateCOM.Size = New System.Drawing.Size(175, 29)
         Me.b_updateCOM.TabIndex = 1
-        Me.b_updateCOM.Text = "Actualizar Dispositivos"
+        Me.b_updateCOM.Text = "Update devices"
         Me.b_updateCOM.UseVisualStyleBackColor = True
         '
         'ListBox1
@@ -89,7 +89,7 @@ Partial Class StudioLED
         Me.colorGroupConfiguration.Size = New System.Drawing.Size(577, 206)
         Me.colorGroupConfiguration.TabIndex = 1
         Me.colorGroupConfiguration.TabStop = False
-        Me.colorGroupConfiguration.Text = " Configuración de colores "
+        Me.colorGroupConfiguration.Text = " Color configuration "
         '
         'shutdownButton
         '
@@ -98,7 +98,7 @@ Partial Class StudioLED
         Me.shutdownButton.Name = "shutdownButton"
         Me.shutdownButton.Size = New System.Drawing.Size(85, 23)
         Me.shutdownButton.TabIndex = 6
-        Me.shutdownButton.Text = "Apagar"
+        Me.shutdownButton.Text = "Power Off"
         Me.shutdownButton.UseVisualStyleBackColor = True
         '
         'Button1
@@ -109,7 +109,7 @@ Partial Class StudioLED
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(85, 23)
         Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Sincronizar"
+        Me.Button1.Text = "PSync"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -121,7 +121,7 @@ Partial Class StudioLED
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(126, 13)
         Me.TextBox1.TabIndex = 4
-        Me.TextBox1.Text = "Temperatura de color:"
+        Me.TextBox1.Text = "Color temperature"
         '
         'showPreview
         '
@@ -194,7 +194,7 @@ Partial Class StudioLED
         Me.MaximizeBox = False
         Me.Name = "StudioLED"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
-        Me.Text = "StudioLED BETA"
+        Me.Text = "StudioLED"
         Me.GroupBox1.ResumeLayout(False)
         Me.colorGroupConfiguration.ResumeLayout(False)
         Me.colorGroupConfiguration.PerformLayout()
