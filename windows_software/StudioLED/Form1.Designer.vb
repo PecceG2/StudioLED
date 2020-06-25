@@ -109,7 +109,7 @@ Partial Class StudioLED
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(85, 23)
         Me.Button1.TabIndex = 5
-        Me.Button1.Text = "PSync"
+        Me.Button1.Text = "        "
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -161,7 +161,6 @@ Partial Class StudioLED
         '
         'ColorWheel1
         '
-        Me.ColorWheel1.Color = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ColorWheel1.Location = New System.Drawing.Point(6, 16)
         Me.ColorWheel1.Name = "ColorWheel1"
         Me.ColorWheel1.Size = New System.Drawing.Size(183, 182)

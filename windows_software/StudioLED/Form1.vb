@@ -1,10 +1,12 @@
 ﻿Imports System.IO
+Imports Cyotek.Windows.Forms
 
 Public Class StudioLED
     Dim connectionStatus As Boolean
     Dim shuttingDownStatus As Boolean
     Private Sub StudioLED_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        tempColorPredefined.Colors = New Cyotek.Windows.Forms.PaintNetPaletteSerializer().Deserialize(Path.Combine("C:\Users\pecce\Desktop\Laburo\Hardware\Foco-led-estudio\DesktopApp\StudioLED\StudioLED\palettes\temperatureColorPalette.txt"))
+        'MsgBox(My.Resources.Resource1.temperatureColorPalette.ToString())
+        tempColorPredefined.Colors = New Cyotek.Windows.Forms.PaintNetPaletteSerializer().Deserialize(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "palettes\LightTemperatureColor.txt"))
         connectionStatus = False
     End Sub
 
