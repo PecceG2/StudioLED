@@ -13,9 +13,9 @@
   <h3 align="center">StudioLED</h3>
 
   <p align="center">
-    StudioLED is a RGB LED strip controller via COM designed for recording lights
+    StudioLED is a RGB LED strip controller via COM designed for recording and streaming
     <br />
-    <a href="https://github.com/"><strong>xxx xxx xxx xxx »</strong></a>
+    <a href="https://github.com/PecceG2/"><strong>View all my projects »</strong></a>
     <br />
     <br />
     <a href="https://github.com/PecceG2/StudioLED/issues">Report Bug</a>
